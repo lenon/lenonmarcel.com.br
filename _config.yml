@@ -25,5 +25,8 @@ author:
   url:               http://lenonmarcel.com.br
   email:             eu@lenon.ninja
 
+exclude:
+  - scripts/
+
 # Custom vars
 version:             1.0.0

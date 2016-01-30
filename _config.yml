@@ -5,11 +5,14 @@ highlighter:         pygments
 redcarpet:
   extensions: [smart]
 
+gems:
+  - jekyll-paginate
+  - pygments.rb
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           date
-relative_permalinks: true
 
 # Setup
 title:               'Lenon Marcel'

@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 set -ex
 
+echo Updating git submodules...
+git submodule foreach git pull origin master
+
+echo Building the static site...
 jekyll build
+
+echo Sending files to the remote webserver...
 rsync -rv _site/ deploy@lenonmarcel.com.br:/usr/local/www/lenonmarcel.com.br/
+
+echo Done!

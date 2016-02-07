@@ -429,3 +429,9 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.license img {
+  margin-right: 10px;
+  border-radius: 0;
+  float: left;
+}

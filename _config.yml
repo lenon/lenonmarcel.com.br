@@ -14,9 +14,7 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Lenon Marcel
-  url:               http://lenonmarcel.com.br
-  email:             eu@lenon.ninja
+  name: Lenon Marcel
 
 # Custom vars
 version:             1.0.0

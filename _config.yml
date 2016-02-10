@@ -24,3 +24,6 @@ gems:
 
 exclude:
   - scripts/
+  - Gemfile*
+  - LICENSE*
+  - README*
